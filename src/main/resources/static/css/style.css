@@ -1,0 +1,185 @@
+/*
+Credit: http://www.templatemo.com
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    background-color: #010206;
+    background-image: url(../images/bg.jpg)  ;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:100% 100%;
+}
+
+a, a:link, a:visited { color: #999999; text-decoration: underline; }
+a:hover { color: #00CCFF; text-decoration: none; }
+
+p { margin: 0 0 10px 0; padding: 0; }
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal }
+h1 { font-size: 34px; margin: 0 0 30px 0; padding: 5px 0; }
+h2 { font-size: 24px; margin: 0 0 30px 0; padding: 0;color: #dc921a; }
+h3 { font-size: 21px; margin: 0 0 15px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 0 0;padding: 10px; color: #dc921a; }
+h5 { font-size: 16px; margin: 0 0 0 0; padding: 0; color: #d82b82; }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.clear { height: 30px ; clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { display: inline-block; border: 3px solid #35373b; margin-bottom: 5px }
+.image_fl_left {border-radius: 50%;width: 50px;height: 50px; float: left; margin: 10px 10px 10px 10px }
+.image_fr_left { float: right; margin: 3px 0 0 30px }
+
+.image_fl_right { border-radius: 50%;width: 50px;height: 50px; float: right; margin: 10px 10px 10px 10px }
+.image_fr_right { float: left; margin: 3px 0 0 30px }
+
+.image_poster{
+    width: 660px;
+    height: 550px;
+}
+.image_pick{
+    margin: 10px 30px 10px 10px
+}
+blockquote { font-style: italic; margin-left: 10px}
+cite { font-weight: bold; color:#ccc }
+cite span { color: #ccc }
+em { color: #fff; font-weight: 400 }
+
+.tmo_list { margin: 0 0 0 20px; padding: 0; list-style: none }
+.tmo_list li { color: #666666; margin:0 0 5px; padding: 3px 0 3px 15px; background: url(../images/templatmeo_list.jpg) no-repeat scroll 0 10px }
+.tmo_list li a { color: #666666; text-decoration: underline }
+.tmo_list li a:hover { color: #00CCFF; }
+
+#atm_wrapper { width: 1120px; margin: 0 auto }
+
+#atm_header {
+    width: 1120px;
+    padding: 0 30px;
+    height: 100px;
+    background: url(../images/logo-public.png) no-repeat center
+}
+
+#atm_header a {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 150px;
+    margin: 140px 0 0 110px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    background: url(../images/logo-public.png) no-repeat top left;
+    text-indent: -10000px;
+}
+
+/* menu */
+
+#atm_member {
+    width: 1120px;
+    /*height: 53px;*/
+    margin-bottom: 30px;
+}
+
+#atm_member ul {
+    height: 52px;
+    margin: 0;
+    padding: 1px 0 0 0;
+    list-style: none;
+    align-content: center;
+}
+
+#atm_member ul li {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#atm_member ul li a {
+    float: left;
+    display: block;
+    height: 37px;
+    padding: 15px 19px 0 18px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    background: url(../images/atm_member_divider.jpg) center right no-repeat;
+}
+
+#atm_member ul li a:hover, #atm_member ul .current {
+    color: #0eb0ff;
+}
+
+#atm_member ul .last { background: none; padding-right: 52px }
+/* end of menu */
+
+#atm_main {
+    width: 1120px;
+}
+#atm_main_title{
+    width: 100%;
+    height: 80px;
+    background-color: #010206;
+}
+#atm_select {
+    width: 1120px;
+    height: 560px;
+    background: #35373b url("https://game.gtimg.cn/images/lol/act/img/skin/big1000.jpg") no-repeat center right;
+    background-size:100% 100%;
+}
+#atm_left {
+    float: left;
+    width: 150px;
+}
+.atm_hero {
+    width: 150px;
+    height: 70px;
+    padding-bottom: 30px;
+}
+#atm_hero_poster{
+    float: left;
+    width: 600px;
+    height: 560px;
+    margin: 0 30px 0 30px;
+
+}
+.content_box { clear: both; margin: 30px 0 0 0; }
+.col_w250 { width: 250px }
+.last_box { margin: 0 }
+
+#atm_right {
+    float: right;
+    width: 150px
+}
+
+.sidebar_box {
+    margin-bottom: 50px
+}
+.last_box { margin: 0 }
+
+#atm_footer {
+    clear: both;
+    width: 1120px;
+    padding: 144px 30px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: url(../images/templatemo_footer.jpg) bottom center no-repeat;
+}
+
+#atm_footer a { color: #fff; }
